@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:adhan/adhan.dart';
-import 'package:intl/intl.dart';
 
 void main() {
   runApp(const PrayerApp());
@@ -110,7 +109,7 @@ class _PrayerHomePageState extends State<PrayerHomePage> {
       {'name': 'ফজর', 'time': prayerTimes.fajr, 'icon': Icons.nightlight_round},
       {'name': 'জোহর', 'time': prayerTimes.dhuhr, 'icon': Icons.wb_sunny_outlined},
       {'name': 'আসর', 'time': prayerTimes.asr, 'icon': Icons.wb_twilight},
-      {'name': 'মাগরিব', 'time': prayerTimes.maghrib, 'icon': Icons.sunset},
+      {'name': 'মাগরিব', 'time': prayerTimes.maghrib, 'icon': Icons.wb_twilight},
       {'name': 'এশা', 'time': prayerTimes.isha, 'icon': Icons.nights_stay_outlined},
     ];
 
