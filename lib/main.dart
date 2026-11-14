@@ -222,7 +222,7 @@ class _PrayerHomePageState extends State<PrayerHomePage> {
                   SizedBox(width: 9),
                   Expanded(
                     child: Text(
-                      'হিসাব পদ্ধতি: Karachi • আসর: হানাফি। স্থানীয় মসজিদের সময়সূচির সঙ্গে কয়েক মিনিট পার্থক্য হতে পারে।',
+                      'সময় গণনা: Karachi পদ্ধতি • আসর: হানাফি। এটি খুলনা শহরের স্থানাঙ্কভিত্তিক আনুমানিক সময়; জেলার বিভিন্ন এলাকায় ও স্থানীয় মসজিদের সময়ে পার্থক্য হতে পারে। রমজানে ইসলামিক ফাউন্ডেশনের খুলনা জেলার প্রকাশিত সেহরি-ইফতারের সময়সূচি অগ্রাধিকার দিন।',
                       style: TextStyle(
                         color: Color(0xFF496257),
                         fontSize: 12,
@@ -322,7 +322,7 @@ class _PrayerHomePageState extends State<PrayerHomePage> {
                 Icon(Icons.nights_stay_outlined, color: Colors.white70, size: 17),
                 SizedBox(width: 7),
                 Text(
-                  'সেহরি ও ইফতারের সময়',
+                  'আনুমানিক সেহরি ও ইফতারের সময়',
                   style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
                 ),
               ],
@@ -349,7 +349,7 @@ class _PrayerHomePageState extends State<PrayerHomePage> {
             ),
             const SizedBox(height: 10),
             const Text(
-              'সেহরির সময় ফজরের ৩ মিনিট আগে ধরা হয়েছে',
+              'সেহরি শেষের সময় ফজরের ৩ মিনিট আগে ধরে গণনা করা হয়েছে',
               style: TextStyle(color: Colors.white70, fontSize: 10),
             ),
           ],
