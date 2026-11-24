@@ -41,8 +41,8 @@ class PrayerHomePage extends StatefulWidget {
 
 class _PrayerHomePageState extends State<PrayerHomePage> {
   // অ্যাপটি আপাতত খুলনা জেলার জন্য নির্ধারিত।
-  static const double khulnaLat = 22.8456;
-  static const double khulnaLng = 89.5403;
+  static const double khulnaLat = 22.804999;
+  static const double khulnaLng = 89.565785;
 
   static const List<String> banglaMonths = [
     'জানুয়ারি', 'ফেব্রুয়ারি', 'মার্চ', 'এপ্রিল',
